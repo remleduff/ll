@@ -1,0 +1,21 @@
+Rank,Name,Description,Quote,Players,Copies
+8,Princess,"If you discard this card, you are out of the round.",I'm a pretty princess,"*",1
+7,Countess,"If you have this card and the King or Prince in your hand, you must discard this card.",,"*",1
+6,King,Trade hands with another player of your choice.,,"*",1
+6,King,Trade hands with another player of your choice.,,"6",1
+5,Prince,Choose any player (including yourself) to discard his or her hand and draw a new card.,,"*",2
+5,Prince,Choose any player (including yourself) to discard his or her hand and draw a new card.,,"5",1
+5,Prince,Choose any player (including yourself) to discard his or her hand and draw a new card.,,"7",1
+4,Handmaid,"Until your next turn, ignore all effects from other players' cards",,"*",2
+4,Handmaid,"Until your next turn, ignore all effects from other players' cards",,"5",1
+4,Handmaid,"Until your next turn, ignore all effects from other players' cards",,"7",1
+3,Baron,You and another player secretly compare hands. The player with the lower value is out of the round.,,"*",1
+3,Baron,You and another player secretly compare hands. The player with the lower value is out of the round.,,"5",1
+3,Baron,You and another player secretly compare hands. The player with the lower value is out of the round.,,"7",1
+2,Priest,Look at another player's hand.,,"*",2
+2,Priest,Look at another player's hand.,,"5",1
+2,Priest,Look at another player's hand.,,"7",1
+1,Guard,"Name a non-Guard card, and choose another player. If that player has that card, he or she is out of the round.",,"*",5
+1,Guard,"Name a non-Guard card, and choose another player. If that player has that card, he or she is out of the round.",,"5",1
+1,Guard,"Name a non-Guard card, and choose another player. If that player has that card, he or she is out of the round.",,"6",2
+1,Guard,"Name a non-Guard card, and choose another player. If that player has that card, he or she is out of the round.",,"8",2

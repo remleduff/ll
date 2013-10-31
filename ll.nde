@@ -1,0 +1,43 @@
+BORDER = ROUNDED, #808080, 0.25, DOTTED, #F0F0F0, 1
+PAGE = 21.59, 27.94, LANDSCAPE
+CARDSIZE = 6,9
+MARGINS = 1, 1, 1, 1
+PRINT=DUPLEX
+DPI = 600
+
+<name> = 5%, 50%, 90%, 10%
+<image> = 11%, 8%, 80%, 39%
+<description> = 13%,63%,80%,30%
+<descriptionBox> = 0%,56%,100%,44%
+<rank> = 80%, 3%, 20%, 20%
+<rankBox> = 80%, 0%, 18%, 13%
+<players> = 90%,88%,10%,12%
+
+[good] = #A8A8FF
+[textColor] = #000000
+
+LINKMULTI=Copies
+LINK=ll.csv
+[all]="1-{(Rank)}"
+ROUNDRECT=[all], <descriptionBox>, #CBCB96
+IMAGE=[all],"img/corner.png",-3%,-9%,100%,100%,0,APN
+IMAGE=[all],"img/corner.png",-3%,9.5%,100%,100%,0,AVPN
+ROUNDRECT=[all], <rankBox>, [good]
+FONT="Shadowed Serif",26,T,[textColor]
+TEXT=[all],[Rank],<rank>,center,top
+ROUNDRECT=[all], <name>, [textColor], #C0C0C0, 0.1
+FONT="Shadowed Serif",12,T,[textColor]
+TEXT=[all],[Name],<name>,center, center
+FONT=Arial,10,T,[textColor]
+[htmldesc]=JOIN("<p>",[Description],"</p>")
+HTMLTEXT=[all],[htmldesc],<description>,#FFFFFF,0,T2
+[images]=JOIN("img/", [Name], ".png")
+IMAGE=[all],[images], <image>,0,PN
+FONT=Arial,14,T,[textColor]
+ROUNDRECT=[all], <players>, #C0C0C0
+TEXT=[all],[Players],<players>,center,center  
+ 
+[back]={(Rank)+1}
+IMAGE=[back], "crown.png", 5%, 0%, 90%, 100%, 0, APN
+
+'DUPLEX=[all],[back]
